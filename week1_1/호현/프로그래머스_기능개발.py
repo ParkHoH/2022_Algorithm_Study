@@ -1,5 +1,4 @@
 def solution(n, k):
-    # 3진법으로 변환
     s = ''
     while n:
         s += str(n%k)
